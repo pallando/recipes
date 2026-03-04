@@ -169,6 +169,7 @@ def get_from_scraper(scrape, request):
     try:
         for x in scrape.ingredients():
             if x.strip() != '':
+                x = automation_engine.apply_regex_replace_automation(x, Automation.INGREDIENT_REPLACE)
                 try:
                     amount, unit, food, note = ingredient_parser.parse(x)
                     ingredient = {

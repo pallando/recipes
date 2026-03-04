@@ -20,6 +20,7 @@ class Migration(migrations.Migration):
                     ('KEYWORD_ALIAS', 'Keyword Alias'),
                     ('DESCRIPTION_REPLACE', 'Description Replace'),
                     ('INSTRUCTION_REPLACE', 'Instruction Replace'),
+                    ('INGREDIENT_REPLACE', 'Ingredient Replace'),
                     ('NEVER_UNIT', 'Never Unit'),
                     ('TRANSPOSE_WORDS', 'Transpose Words'),
                     ('FOOD_REPLACE', 'Food Replace'),

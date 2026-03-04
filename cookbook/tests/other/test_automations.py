@@ -104,6 +104,7 @@ def test_never_unit_automation(u1_s1, arg):
     "arg", [
         [Automation.DESCRIPTION_REPLACE],
         [Automation.INSTRUCTION_REPLACE],
+        [Automation.INGREDIENT_REPLACE],
         [Automation.NAME_REPLACE],
         [Automation.FOOD_REPLACE],
         [Automation.UNIT_REPLACE],
@@ -157,7 +158,7 @@ def test_url_import_regex_replace(u1_s1):
     request.user = user
     request.space = space
     recipe = 'regex_recipe.html'
-    types = [Automation.DESCRIPTION_REPLACE, Automation.INSTRUCTION_REPLACE, Automation.NAME_REPLACE, Automation.FOOD_REPLACE, Automation.UNIT_REPLACE]
+    types = [Automation.DESCRIPTION_REPLACE, Automation.INSTRUCTION_REPLACE, Automation.INGREDIENT_REPLACE, Automation.NAME_REPLACE, Automation.FOOD_REPLACE, Automation.UNIT_REPLACE]
     find_text = "_remove"
     target_text = "Test"
 

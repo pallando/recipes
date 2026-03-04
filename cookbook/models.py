@@ -1670,6 +1670,7 @@ class Automation(ExportModelOperationsMixin('automations'), models.Model, Permis
     KEYWORD_ALIAS = 'KEYWORD_ALIAS'
     DESCRIPTION_REPLACE = 'DESCRIPTION_REPLACE'
     INSTRUCTION_REPLACE = 'INSTRUCTION_REPLACE'
+    INGREDIENT_REPLACE = 'INGREDIENT_REPLACE'
     NEVER_UNIT = 'NEVER_UNIT'
     TRANSPOSE_WORDS = 'TRANSPOSE_WORDS'
     FOOD_REPLACE = 'FOOD_REPLACE'
@@ -1682,6 +1683,7 @@ class Automation(ExportModelOperationsMixin('automations'), models.Model, Permis
         (KEYWORD_ALIAS, _('Keyword Alias')),
         (DESCRIPTION_REPLACE, _('Description Replace')),
         (INSTRUCTION_REPLACE, _('Instruction Replace')),
+        (INGREDIENT_REPLACE, _('Ingredient Replace')),
         (NEVER_UNIT, _('Never Unit')),
         (TRANSPOSE_WORDS, _('Transpose Words')),
         (FOOD_REPLACE, _('Food Replace')),

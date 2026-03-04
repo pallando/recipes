@@ -299,6 +299,7 @@
   "Ingredient": "Ingredient",
   "Ingredient Editor": "Ingredient Editor",
   "Ingredient Overview": "Ingredient Overview",
+  "Ingredient_Replace": "Ingredient Replace",
   "IngredientEditorHelp": "With the ingredient editor you can edit all Ingredients that use a certain Food and/or Unit at once. This can be used to easily correct errors or change multiple recipes at once.",
   "IngredientHelp": "Ingredients usually consist of a quantity, unit and food, with quantity and unit being optional. It can also contain a note or be used as a header. ",
   "IngredientInShopping": "This ingredient is in your shopping list.",

@@ -627,7 +627,7 @@ class Migration(migrations.Migration):
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('type', models.CharField(
                     choices=[('FOOD_ALIAS', 'Food Alias'), ('UNIT_ALIAS', 'Unit Alias'), ('KEYWORD_ALIAS', 'Keyword Alias'), ('DESCRIPTION_REPLACE', 'Description Replace'),
-                             ('INSTRUCTION_REPLACE', 'Instruction Replace'), ('NEVER_UNIT', 'Never Unit'), ('TRANSPOSE_WORDS', 'Transpose Words'), ('FOOD_REPLACE', 'Food Replace'),
+                             ('INSTRUCTION_REPLACE', 'Instruction Replace'), ('INGREDIENT_REPLACE', 'Ingredient Replace'), ('NEVER_UNIT', 'Never Unit'), ('TRANSPOSE_WORDS', 'Transpose Words'), ('FOOD_REPLACE', 'Food Replace'),
                              ('UNIT_REPLACE', 'Unit Replace'), ('NAME_REPLACE', 'Name Replace')], max_length=128)),
                 ('name', models.CharField(default='', max_length=128)),
                 ('description', models.TextField(blank=True, null=True)),

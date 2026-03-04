@@ -189,6 +189,7 @@ class AutomationEngine:
         field_type are Automation.type that apply regex replacements
         Automation.DESCRIPTION_REPLACE
         Automation.INSTRUCTION_REPLACE
+        Automation.INGREDIENT_REPLACE
         Automation.FOOD_REPLACE
         Automation.UNIT_REPLACE
         Automation.NAME_REPLACE

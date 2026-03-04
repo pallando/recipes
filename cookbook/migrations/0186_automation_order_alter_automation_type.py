@@ -18,6 +18,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='automation',
             name='type',
-            field=models.CharField(choices=[('FOOD_ALIAS', 'Food Alias'), ('UNIT_ALIAS', 'Unit Alias'), ('KEYWORD_ALIAS', 'Keyword Alias'), ('DESCRIPTION_REPLACE', 'Description Replace'), ('INSTRUCTION_REPLACE', 'Instruction Replace')], max_length=128),
+            field=models.CharField(choices=[('FOOD_ALIAS', 'Food Alias'), ('UNIT_ALIAS', 'Unit Alias'), ('KEYWORD_ALIAS', 'Keyword Alias'), ('DESCRIPTION_REPLACE', 'Description Replace'), ('INSTRUCTION_REPLACE', 'Instruction Replace'), ('INGREDIENT_REPLACE', 'Ingredient Replace')], max_length=128),
         ),
     ]

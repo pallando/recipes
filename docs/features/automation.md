@@ -57,6 +57,7 @@ that will change the string <example string here> into the string <desired resul
 These work just like the Description Replace automation.
 Instruction, Food and Unit Replace will run against every iteration of the object in a recipe during import.
 - Instruction Replace will run for the instructions in every step.  It will also replace every occurrence, not just the first.
+- Ingredient Replace will run for every ingredient in every step, before parsing.
 - Food & Unit Replace will run for every food and unit in every ingredient in every step.
 
 Also instead of just replacing a single occurrence of the matched pattern it will replace all.

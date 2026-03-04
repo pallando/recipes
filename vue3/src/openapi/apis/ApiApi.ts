@@ -21334,6 +21334,7 @@ export const ApiAutomationListTypeEnum = {
     FoodAlias: 'FOOD_ALIAS',
     FoodReplace: 'FOOD_REPLACE',
     InstructionReplace: 'INSTRUCTION_REPLACE',
+    IngredientReplace: 'INGREDIENT_REPLACE',
     KeywordAlias: 'KEYWORD_ALIAS',
     NameReplace: 'NAME_REPLACE',
     NeverUnit: 'NEVER_UNIT',

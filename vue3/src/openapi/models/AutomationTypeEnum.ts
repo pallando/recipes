@@ -19,6 +19,7 @@
  * * `KEYWORD_ALIAS` - Keyword Alias
  * * `DESCRIPTION_REPLACE` - Description Replace
  * * `INSTRUCTION_REPLACE` - Instruction Replace
+ * * `INGREDIENT_REPLACE` - Ingredient Replace
  * * `NEVER_UNIT` - Never Unit
  * * `TRANSPOSE_WORDS` - Transpose Words
  * * `FOOD_REPLACE` - Food Replace
@@ -32,6 +33,7 @@ export const AutomationTypeEnum = {
     KeywordAlias: 'KEYWORD_ALIAS',
     DescriptionReplace: 'DESCRIPTION_REPLACE',
     InstructionReplace: 'INSTRUCTION_REPLACE',
+    IngredientReplace: 'INGREDIENT_REPLACE',
     NeverUnit: 'NEVER_UNIT',
     TransposeWords: 'TRANSPOSE_WORDS',
     FoodReplace: 'FOOD_REPLACE',

@@ -78,6 +78,7 @@ const AUTOMATION_TYPES = [
     {value: "NAME_REPLACE", title: t("Name_Replace")},
     {value: "DESCRIPTION_REPLACE", title: t("Description_Replace")},
     {value: "INSTRUCTION_REPLACE", title: t("Instruction_Replace")},
+    {value: "INGREDIENT_REPLACE", title: t("Ingredient_Replace")},
     {value: "FOOD_REPLACE", title: t("Food_Replace")},
     {value: "UNIT_REPLACE", title: t("Unit_Replace")},
     {value: "NEVER_UNIT", title: t("Never_Unit")},

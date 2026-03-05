@@ -18,6 +18,7 @@ class AutomationEngine:
     regex_replace = {
         Automation.DESCRIPTION_REPLACE: None,
         Automation.INSTRUCTION_REPLACE: None,
+        Automation.INGREDIENT_REPLACE: None,
         Automation.FOOD_REPLACE: None,
         Automation.UNIT_REPLACE: None,
         Automation.NAME_REPLACE: None,

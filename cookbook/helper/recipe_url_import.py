@@ -167,9 +167,9 @@ def get_from_scraper(scrape, request):
         recipe_json['steps'][0]['instruction'] = f"*{recipe_json['description']}*  \n\n" + recipe_json['steps'][0]['instruction']
 
     try:
-        for x in scrape.ingredients():
-            if x.strip() != '':
-                x = automation_engine.apply_regex_replace_automation(x, Automation.INGREDIENT_REPLACE)
+        for ing in scrape.ingredients():
+            if ing.strip() != '':
+                x = automation_engine.apply_regex_replace_automation(ing, Automation.INGREDIENT_REPLACE)
                 try:
                     amount, unit, food, note = ingredient_parser.parse(x)
                     ingredient = {
@@ -179,7 +179,7 @@ def get_from_scraper(scrape, request):
                         },
                         'unit': None,
                         'note': note,
-                        'original_text': x
+                        'original_text': ing
                     }
                     if unit:
                         ingredient['unit'] = {
@@ -194,7 +194,7 @@ def get_from_scraper(scrape, request):
                             'name': x,
                         },
                         'note': '',
-                        'original_text': x
+                        'original_text': ing
                     })
     except Exception:
         pass
@@ -329,7 +329,6 @@ def clean_instruction_string(instruction):
         .replace(u"\uE036", _('grater')) \
         .replace(u"\uE04C", _('spiralizer')) \
         .replace(u"\uE02D", _("sous-vide"))
-
 
     return normalized_string
 
